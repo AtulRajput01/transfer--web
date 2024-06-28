@@ -1,0 +1,122 @@
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.main {
+    background: linear-gradient(180deg, rgba(96, 195, 237, 0.45) 0%, rgba(237, 237, 251, 0.45) 100%);
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding: 15px 15px;
+    transition: transform 0.2s;
+    width: 90%;
+    max-width: 700px;
+    text-align: center;
+}
+
+h2 {
+    color: #608dfd;
+}
+
+label {
+    font-size: 1.8rem;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+button a {
+    color: black;
+}
+
+input {
+    display: block;
+    width: 100%;
+    max-width: 18rem;
+    margin-bottom: 20px;
+    padding: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+button {
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: #4CAF50;
+    width: 100%;
+    max-width: 18rem;
+    font-size: 20px;
+}
+
+ .wrap {
+    display: flex;
+    justify-content: center;
+} 
+
+.input-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+margin-top: 2rem;
+}
+
+
+
+.input-text .input {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+	
+
+}
+
+.input-text input:focus {
+    border: 2px solid green;
+    box-shadow: 0 0 2px 2px rgb(79, 172, 25);
+}
+
+
+@media (min-width: 600px) {
+    .input-text .input {
+        flex-direction: row;
+        gap: 3rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .main {
+        padding: 30px;
+    }
+
+    input {
+        max-width: 24rem;
+    }
+
+    button {
+        max-width: 12rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .main {
+        padding: 45px;
+    }
+
+    input {
+        max-width: 30rem;
+    }
+
+    button {
+        max-width: 18rem;
+    }
+}
